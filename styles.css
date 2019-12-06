@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(174, 214, 230);
+    background-color: rgb(174, 214, 230);
 }
 .header-footer{
     background-color:rgba(0, 0, 0, .3);
@@ -48,7 +48,7 @@ a:hover{
 .masthead {
     height: auto;
     min-height: 100vh;
-    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-image: url('images/color-splash.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
