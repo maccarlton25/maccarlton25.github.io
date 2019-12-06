@@ -93,7 +93,11 @@ i.fab.fa-twitter-square {
     color: black;
 }
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.blur {
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
 }
 .form-row {
     margin-bottom: 1rem;
