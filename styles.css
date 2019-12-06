@@ -2,8 +2,29 @@ body{
     background-color:rgb(174, 214, 230);
 }
 .header-footer{
-    background-color:rgb(174, 214, 230);
+    background-color:rgba(0, 0, 0, .3);
 }
+
+.navbar {
+    width: 100%;
+}
+
+
+.navbar-nav {
+    text-align: center;
+    width: 100%;
+}
+.nav-container {
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-right: 0px;
+}
+
+.navbar-nav li {
+    display: inline-block;
+}
+
 h3{
     margin-top: 8px;
     margin-bottom: 8px;
@@ -11,8 +32,8 @@ h3{
     margin-left: 15px;
     padding: none;
 }
-.selected{
-    color:rgb(162, 123, 86);
+.not:hover{
+    color:rgb(174, 214, 230);
     font-weight: bold;
 }
 .not{
@@ -26,7 +47,7 @@ a:hover{
 }
 .masthead {
     height: auto;
-    min-height: 500px;
+    min-height: 100vh;
     background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
     background-size: cover;
     background-position: center;
@@ -48,7 +69,9 @@ h1{
 }
 p.text-right {
     width: 97%;
+    margin-bottom: 0;
 }
+
 i.fab.fa-twitter-square {
     margin-right: 7%;
     margin-left: 7%;
@@ -121,6 +144,11 @@ i.fab.fa-twitter-square {
         margin-bottom: 1rem;
     }
 }
+@media only screen and (max-width: 800px) {
+    .nav-font-size {
+        font-size: 105%;
+    }
+}
 .special-row {
     margin-right: 0px !important;
     margin-left: 0px !important;
@@ -139,4 +167,13 @@ i.fab.fa-twitter-square {
 }
 .card {
     background-color: rgba(255, 196, 78, 0.5);
+}
+header{
+    padding-top: 5rem;
+}
+nav {
+    background-color: rgb(162, 123, 86);
+}
+section {
+    padding-top: 1rem;
 }
