@@ -96,8 +96,8 @@ i.fab.fa-twitter-square {
     background-color: rgba(0, 0, 0, 0.4);
 }
 .blur {
-    filter: blur(8px);
-    -webkit-filter: blur(2px);
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
 }
 .form-row {
     margin-bottom: 1rem;
