@@ -1,0 +1,142 @@
+body{
+    background-color:rgb(174, 214, 230);
+}
+.header-footer{
+    background-color:rgb(174, 214, 230);
+}
+h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: none;
+}
+.selected{
+    color:rgb(162, 123, 86);
+    font-weight: bold;
+}
+.not{
+    color: white;
+}
+a:hover{
+    text-decoration:none;
+}
+.title {
+    text-align: center;
+}
+.masthead {
+    height: auto;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card {
+    margin: 1% 1% 1% 0%;
+}
+
+.text-center {
+    padding: .25em;
+    margin: .25em 0em 0em 0em;
+}
+h1{
+    color:rgb(162, 123, 86);
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+}
+p.text-right {
+    width: 97%;
+}
+i.fab.fa-twitter-square {
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 1%;
+}
+.card{
+    border: solid 2px rgb(162, 123, 86);
+}
+.btn-primary{
+    background-color:rgb(174, 214, 230);
+    border-color: rgb(174, 214, 230);
+}
+.btn-primary:hover{
+    background-color:rgb(174, 214, 230);
+    border-color: rgb(174, 214, 230);
+}
+.black {
+    color: black;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.form-row {
+    margin-bottom: 1rem;
+}
+.form1 {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container-fluid {
+    margin-top: 70px !important;
+}
+
+.row {
+    margin-right: 5vw;
+    margin-left: 5vw;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+.fc1 {
+    width: 90%;
+    margin-left: 5%;
+}
+.form-row {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.fl {
+    margin-left: 5% !important;
+}
+
+@media only screen and (max-width: 700px) {
+    .ps {
+        font-size: 74%;
+    }
+    .h5s{
+        font-size: 85%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .mtol {
+        margin-bottom: 1rem;
+    }
+}
+.special-row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.hms {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
+.card-head {
+    height: 100%;
+}
+.card {
+    background-color: rgba(255, 196, 78, 0.5);
+}
